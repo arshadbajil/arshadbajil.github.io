@@ -17,11 +17,12 @@ const App = () => {
     Aos.init({
       duration: 1800,
       offset: 100,
-      disable: "mobile",
+      disable: "mobile"
     });
   }, []);
+
   return (
-    <div className="">
+    <div className="scrollbar-hide">
       <Navbar />
       <Hero />
       <Skills />
@@ -31,8 +32,8 @@ const App = () => {
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
-        <p>codeaprogram © All CopyRights Reserved 2022</p>
+        <h6 className="mb-3">ARSHAD BAJIL</h6>
+        <p>AR © All CopyRights Reserved 2023</p>
       </footer>
     </div>
   );

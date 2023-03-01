@@ -7,11 +7,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
+import PageLayout from "./PageLayout";
 
 const Projects = () => {
   const { Projects } = content;
   return (
-    <section className="bg-bg_light_primary" id="projects">
+    <PageLayout className="bg-bg_light_primary" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
@@ -31,7 +32,7 @@ const Projects = () => {
           />
           <Swiper
             pagination={{
-              clickable: true,
+              clickable: true
             }}
             data-aos="fade-left"
             spaceBetween={20}
@@ -55,7 +56,7 @@ const Projects = () => {
           </Swiper>
         </div>
       </div>
-    </section>
+    </PageLayout>
   );
 };
 

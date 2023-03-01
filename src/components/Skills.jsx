@@ -4,6 +4,8 @@ import { content } from "../Content";
 // import modal package
 import Modal from "react-modal";
 
+import PageLayout from "./PageLayout";
+
 const customStyles = {
   content: {
     top: "50%",
@@ -13,11 +15,11 @@ const customStyles = {
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
     maxWidth: "23rem",
-    width: "90%",
+    width: "90%"
   },
   overlay: {
-    padding: "2rem",
-  },
+    padding: "2rem"
+  }
 };
 Modal.setAppElement("#root");
 
@@ -35,8 +37,7 @@ const Skills = () => {
   }
 
   return (
-    <section className="min-h-fit bg-bg_light_primary" id="skills">
-      {/* modal */}
+    <PageLayout className="bg-bg_light_primary" id="skills">
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -66,9 +67,7 @@ const Skills = () => {
           </button>
         </div>
       </Modal>
-
-      {/* content */}
-      <div className="md:container px-5  py-14">
+      <div className="md:container px-5  py-14 vh-100">
         <h2 className="title" data-aos="fade-down">
           {skills.title}
         </h2>
@@ -110,7 +109,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-    </section>
+    </PageLayout>
   );
 };
 

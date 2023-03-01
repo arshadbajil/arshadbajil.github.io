@@ -8,12 +8,13 @@ import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
 import { useState } from "react";
+import PageLayout from "./PageLayout";
 
 const Testimonials = () => {
   const { Testimonials } = content;
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <section>
+    <PageLayout className="bg-bg_light_primary" id="testimonials">
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down">
           {Testimonials.title}
@@ -25,7 +26,7 @@ const Testimonials = () => {
         <Swiper
           direction={"vertical"}
           pagination={{
-            clickable: true,
+            clickable: true
           }}
           data-aos="fade-up"
           loop={true}
@@ -57,7 +58,7 @@ const Testimonials = () => {
           ))}
         </Swiper>
       </div>
-    </section>
+    </PageLayout>
   );
 };
 

@@ -30,7 +30,7 @@ import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
-import { BiUser } from "react-icons/bi";
+import { BiUser, BiBookContent } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
@@ -38,41 +38,45 @@ export const content = {
   nav: [
     {
       link: "#home",
-      icon: TbSmartHome,
+      icon: TbSmartHome
     },
     {
       link: "#skills",
-      icon: BiUser,
+      icon: BiUser
     },
     {
       link: "#services",
-      icon: RiServiceLine,
+      icon: RiServiceLine
     },
     {
       link: "#projects",
-      icon: RiProjectorLine,
+      icon: RiProjectorLine
+    },
+    {
+      link: "#testimonials",
+      icon: BiBookContent
     },
     {
       link: "#contact",
-      icon: MdOutlinePermContactCalendar,
-    },
+      icon: MdOutlinePermContactCalendar
+    }
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    title: "Full Stack Developer",
+    firstName: "ARSHAD",
+    LastName: "BAJIL",
+    btnText: "Connect with Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "4+",
+        text: "Years of Experience in software development"
       },
       {
-        count: "20+",
-        text: "Projects Worked in my career",
-      },
-    ],
+        count: "13+",
+        text: "Projects Worked in my career"
+      }
+    ]
   },
   skills: {
     title: "Skills",
@@ -81,35 +85,35 @@ export const content = {
       {
         name: "Figma",
         para: "Lorem ipsum text  dummy",
-        logo: figma,
+        logo: figma
       },
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        logo: nodejs
       },
       {
         name: "Adobe Photoshop",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: ps
       },
       {
         name: "React js",
         para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        logo: reactjs
       },
       {
         name: "Sketch",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: sketch
       },
       {
         name: "Python",
         para: "Lorem ipsum text  dummy",
-        logo: python,
-      },
+        logo: python
+      }
     ],
-    icon: MdArrowForward,
+    icon: MdArrowForward
   },
   services: {
     title: "Services",
@@ -118,19 +122,19 @@ export const content = {
       {
         title: "Web Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
+        logo: services_logo1
       },
       {
         title: "ui / ux DESIGNING",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
+        logo: services_logo2
       },
       {
         title: "PhotoShop Editing",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
-    ],
+        logo: services_logo3
+      }
+    ]
   },
   Projects: {
     title: "Projects",
@@ -139,17 +143,17 @@ export const content = {
     project_content: [
       {
         title: "Gym Website",
-        image: project1,
+        image: project1
       },
       {
         title: "Social Media web",
-        image: project2,
+        image: project2
       },
       {
         title: "Creative Website",
-        image: project3,
-      },
-    ],
+        image: project3
+      }
+    ]
   },
   Testimonials: {
     title: "Testimonials",
@@ -159,27 +163,27 @@ export const content = {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "JOHN DOE"
       },
       {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Tom Alex"
       },
       {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar3,
-        name: "Johnny",
+        name: "Johnny"
       },
       {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar4,
-        name: "ROBBIN",
-      },
-    ],
+        name: "ROBBIN"
+      }
+    ]
   },
   Hireme: {
     title: "Hire Me",
@@ -187,7 +191,7 @@ export const content = {
     image1: Hireme_person,
     image2: Hireme_person2,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
+    btnText: "Hire Me"
   },
   Contact: {
     title: "Contect Me",
@@ -196,21 +200,21 @@ export const content = {
       {
         text: "codeaprogram@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:codeaprogram@gmail.com"
       },
       {
         text: "+91 1234 56778",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/1234567890"
       },
       {
         text: "codeaprogram",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
-      },
-    ],
+        link: "https://www.instagram.com/codeaprogram/"
+      }
+    ]
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
-  },
+    text: "All © Copy Right Reserved 2023"
+  }
 };

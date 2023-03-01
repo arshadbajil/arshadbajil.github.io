@@ -1,9 +1,10 @@
 import { content } from "../Content";
+import PageLayout from "./PageLayout";
 
 const Services = () => {
   const { services } = content;
   return (
-    <section id="services">
+    <PageLayout id="services">
       <div className="md:container px-5 py-14">
         <h2 className="title" data-aos="fade-down">
           {services.title}
@@ -28,7 +29,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-    </section>
+    </PageLayout>
   );
 };
 
